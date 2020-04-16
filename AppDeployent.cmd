@@ -1,11 +1,11 @@
 @ECHO OFF
 
-REM CALL SET SOURCEDIR=./WebApp
-REM CALL SET DESTINATIONDIR=.
-REM CALL git clone -b gh-pages --single-branch https://github.com/manishki/codingpro-app.git %SOURCEDIR%
+CALL SET SOURCEDIR=./WebApp
+CALL SET DESTINATIONDIR=.
+CALL git clone -b gh-pages --single-branch https://github.com/manishki/codingpro-app.git %SOURCEDIR%
 
-REM CALL robocopy %SOURCEDIR% %DESTINATIONDIR% /E /XD .git
-REM CALL timeout 30
+CALL robocopy %SOURCEDIR% %DESTINATIONDIR% /E /XD .git
+CALL timeout 10
 REM CALL rd /s /q %SOURCEDIR%
 
 CALL git status
