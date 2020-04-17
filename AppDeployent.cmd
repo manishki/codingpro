@@ -3,7 +3,7 @@
 CALL SET SOURCEDIR=./WebApp
 CALL SET DESTINATIONDIR=.
 
-del /S ./WebApp/*
+del WebApp\*.* /s /q
 CALL git clone -b gh-pages --single-branch https://github.com/manishki/codingpro-app.git %SOURCEDIR%
 
 CALL robocopy %SOURCEDIR% %DESTINATIONDIR% /E /XD .git

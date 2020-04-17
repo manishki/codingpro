@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Single Page Apps for GitHub Pages</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hi, my name is Manish Kumar Choudhary and I'm a senior system engineer. Welcome to my personal website!" />
+    <meta name="author" content="Manish Kumar Choudhary" />
+    <meta name="msapplication-TileColor" content="#EDECE6" />
+    <meta itemprop="url" content="%PUBLIC_URL%" />
+    <meta
+      itemprop="image"
+      content="%PUBLIC_URL%/480x270/assets/images/profile.jpg"
+    />
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
       // https://github.com/rafrex/spa-github-pages
@@ -27,15 +37,25 @@
 
       var l = window.location;
       l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + segmentCount)
+            .join("/") +
+          "/?p=/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(segmentCount)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&q=" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
       );
-
     </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
