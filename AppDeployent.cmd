@@ -13,5 +13,5 @@ REM CALL rd /s /q %SOURCEDIR%
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Adding some meta tags and contect us link."
+CALL git commit -m "Adding contact us and icons"
 CALL git push origin master
