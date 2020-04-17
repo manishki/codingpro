@@ -2,6 +2,8 @@
 
 CALL SET SOURCEDIR=./WebApp
 CALL SET DESTINATIONDIR=.
+
+del /S ./WebApp/*
 CALL git clone -b gh-pages --single-branch https://github.com/manishki/codingpro-app.git %SOURCEDIR%
 
 CALL robocopy %SOURCEDIR% %DESTINATIONDIR% /E /XD .git
@@ -11,5 +13,5 @@ REM CALL rd /s /q %SOURCEDIR%
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Trying to modify script to use BrowserRouter react."
+CALL git commit -m "Adding some meta tags and contect us link."
 CALL git push origin master
