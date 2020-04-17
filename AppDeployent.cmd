@@ -11,5 +11,5 @@ REM CALL rd /s /q %SOURCEDIR%
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Auto Deployment of APP with About Me page link modification"
+CALL git commit -m "Trying to modify script to use BrowserRouter react."
 CALL git push origin master
