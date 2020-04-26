@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Article comments and some warning fixes"
+CALL git commit -m "Article comments and some warning fixes-1"
 CALL git push origin master
