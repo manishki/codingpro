@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Image rendering still trying to fix"
+CALL git commit -m "Few links fixes."
 CALL git push origin master
