@@ -9299,6 +9299,88 @@ hr {
 .table-bordered td {
   border-color: rgba(0, 0, 0, 0.08);
 }
+.article-header {
+  position: inherit;
+  top: 0;
+  background: #5bc3d5;
+  color: #fff;
+  scrollbar-color: rgba(0, 0, 0, 0.2) #5bc3d5;
+  scrollbar-width: thin;
+}
+.article-header::-webkit-scrollbar {
+  width: 6px;
+  background-color: #5bc3d5;
+}
+.article-header::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+.article-header .btn-primary {
+  background: rgba(0, 0, 0, 0.3);
+  border-color: transparent;
+  font-size: 1rem;
+}
+.article-header .btn-primary:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-color: transparent;
+}
+.article-header .navbar {
+  padding: 0.25rem 0.6rem;
+}
+.article-header .navbar-dark .navbar-toggler {
+  border-radius: 2px;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 0.25rem 0.6rem;
+}
+.article-header .navbar-dark .navbar-toggler:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.article-header .navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.article-header .nav-item {
+  font-weight: bold;
+}
+.article-header .nav-item.active .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+.article-header .nav-item.active .nav-link:hover {
+  text-decoration: none;
+}
+.article-header .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+.article-header .nav-item .nav-link:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+.article-header .nav-item .nav-link[aria-expanded="true"] {
+  color: rgba(0, 0, 0, 0.5);
+}
+.article-header .nav-item .dropdown-menu {
+  background: #47bcd0;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+.article-header .nav-item .dropdown-menu .dropdown-item {
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  padding-left: 2.25rem;
+  font-weight: bold;
+}
+.article-header .nav-item .dropdown-menu .dropdown-item:hover,
+.article-header .nav-item .dropdown-menu .dropdown-item:active,
+.article-header .nav-item .dropdown-menu .dropdown-item:focus,
+.article-header .nav-item .dropdown-menu .dropdown-item.active {
+  background: #34b3c9;
+}
 .header {
   position: fixed;
   left: 0;
@@ -10201,6 +10283,9 @@ a.resume-link:hover {
   .header .navbar {
     padding: 1rem;
   }
+  .article-header .navbar {
+    padding: unset;
+  }
   .main-wrapper {
     margin-left: 0;
   }
@@ -10306,6 +10391,43 @@ body.dark-mode .table-bordered th {
 }
 body.dark-mode .table-striped tbody tr:nth-of-type(odd) {
   background: rgba(0, 0, 0, 0.15);
+}
+body.dark-mode .article-header {
+  background: #1e2a3a;
+}
+body.dark-mode .article-header::-webkit-scrollbar {
+  background: #1e2a3a;
+}
+body.dark-mode .article-header::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+}
+body.dark-mode .article-header .nav-item.active .nav-link {
+  color: #5bc3d5;
+}
+body.dark-mode .article-header .nav-item.active .nav-link:hover {
+  color: #5bc3d5;
+}
+body.dark-mode .article-header .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+body.dark-mode .article-header .nav-item .nav-link:hover {
+  color: #fff;
+}
+body.dark-mode .article-header .nav-item .dropdown-menu {
+  background: rgba(0, 0, 0, 0.1);
+}
+body.dark-mode .article-header .nav-item .dropdown-menu .dropdown-item:hover,
+body.dark-mode .article-header .nav-item .dropdown-menu .dropdown-item:focus,
+body.dark-mode .article-header .nav-item .dropdown-menu .dropdown-item:active {
+  background: rgba(0, 0, 0, 0.2);
+}
+body.dark-mode .article-header .nav-item .dropdown-menu .dropdown-item.active {
+  color: #5bc3d5;
+  background: rgba(0, 0, 0, 0.2);
+}
+body.dark-mode .article-header .btn-primary {
+  background: #5bc3d5;
 }
 body.dark-mode .header {
   background: #1e2a3a;
