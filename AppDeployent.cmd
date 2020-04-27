@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Few links fixes."
+CALL git commit -m "Fixing navigaton link for mobile screen"
 CALL git push origin master
