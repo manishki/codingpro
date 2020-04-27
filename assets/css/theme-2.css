@@ -10278,6 +10278,13 @@ a.resume-link:hover {
     top: 1.2rem;
     z-index:10;
   }
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+    z-index:10;
+  }
+  .navbar-toggler-icon {
+   z-index:10;
+  }
   .header .btn-primary {
     width: 100%;
   }
