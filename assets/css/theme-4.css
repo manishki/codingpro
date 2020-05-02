@@ -9300,8 +9300,11 @@ hr {
   border-color: rgba(0, 0, 0, 0.08);
 }
 .article-header {
-  position: inherit;
+  position: fixed;
   top: 0;
+  left: 280px;
+  right:0;
+  z-index:3;
   background: #5ecca9;
   color: #fff;
   scrollbar-color: rgba(0, 0, 0, 0.2) #5ecca9;
@@ -10270,6 +10273,9 @@ a.resume-link:hover {
     position: static;
     width: inherit;
     height: auto;
+  }
+  .no-br{
+    display: none;
   }
   .header .blog-name {
     width: 100%;

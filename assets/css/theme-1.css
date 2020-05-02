@@ -9300,13 +9300,15 @@ hr {
   border-color: rgba(0, 0, 0, 0.08);
 }
 .article-header {
-  position: inherit;
+  position: fixed;
   top: 0;
+  left: 280px;
+  right: 0;
+  z-index: 3;
   background: #54b689;
   color: #fff;
   scrollbar-color: rgba(0, 0, 0, 0.2) #54b689;
   scrollbar-width: thin;
-
 }
 
 .article-header::-webkit-scrollbar {
@@ -10274,19 +10276,22 @@ a.resume-link:hover {
     width: inherit;
     height: auto;
   }
+  .no-br{
+    display: none;
+  }
   .header .blog-name {
     width: 100%;
     position: absolute;
     left: 0;
     top: 1.2rem;
-    z-index:10;
+    z-index: 10;
   }
   .navbar-toggler:hover,
   .navbar-toggler:focus {
-    z-index:10;
+    z-index: 10;
   }
   .navbar-toggler-icon {
-   z-index:10;
+    z-index: 10;
   }
   .header .btn-primary {
     width: 100%;
