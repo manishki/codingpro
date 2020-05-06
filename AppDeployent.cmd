@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Fixing meta image tags."
+CALL git commit -m "Fixing not found meta tags."
 CALL git push origin master
