@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Some more css changes and potofolio changes"
+CALL git commit -m "New dotnet article and some meta tag modification"
 CALL git push origin master
