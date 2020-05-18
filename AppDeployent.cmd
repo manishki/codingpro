@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "CNAME with meta tags."
+CALL git commit -m "CNAME with meta tags fix-2."
 CALL git push origin master
