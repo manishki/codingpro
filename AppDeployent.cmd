@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Static meta tags for index and 404 pages."
+CALL git commit -m "Update the about me and navigation."
 CALL git push origin master
