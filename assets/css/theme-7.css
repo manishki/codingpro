@@ -150,6 +150,10 @@ sub {
 sup {
   top: -0.5em;
 }
+.bold-span {
+  color: #5d6ba7;
+  font-weight: bolder;
+}
 a {
   color: #5d6ba7;
   text-decoration: none;
