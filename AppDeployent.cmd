@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "Website final touch."
+CALL git commit -m "27 May CSS and name formating update."
 CALL git push origin master

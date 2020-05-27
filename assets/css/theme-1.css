@@ -9412,7 +9412,7 @@ hr {
 }
 .header .blog-name {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fff;
 }
 .header .blog-name a {
@@ -9647,7 +9647,7 @@ hr {
   top: 0;
 }
 .profile-teaser .name {
-  font-size: 3rem;
+  font-size: 2.08rem;
 }
 .profile-teaser .profile-image {
   max-width: 400px;
@@ -10061,9 +10061,9 @@ hr {
   top: 0;
 }
 .resume-name {
-  font-size: 2.75rem;
+  font-size: 2.39rem;
   font-weight: 900;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0rem;
   color: #54b689;
 }
 .resume-tagline {
