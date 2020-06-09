@@ -12,5 +12,5 @@ CALL timeout 10
 CALL git status
 CALL git add .
 CALL git status
-CALL git commit -m "27 May bug fix to update the page discription."
+CALL git commit -m "28 May bug fix to update the resume certificates."
 CALL git push origin master
